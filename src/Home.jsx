@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import web from './images/vivek.jpeg'
 import './App.css'
 import About from './About'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Home=()=>{
   return(
@@ -20,8 +22,8 @@ const Home=()=>{
                  Web Developer,ML Enthusiast,learner.
                  </h2>
                   <div className='mt-3'>    {/*mt-3 means margin top by 3 px */}
-                    <NavLink to="https://www.linkedin.com/in/vivek-jain-73b35a214/" className='btn-get-started'>Linkedin</NavLink>
-                    <NavLink to="https://github.com/vivek0042" className='btn-get-started'>Github</NavLink>
+                    <NavLink to="https://www.linkedin.com/in/vivek-jain-73b35a214/" className='btn-get-started'><LinkedInIcon/></NavLink>
+                    <NavLink to="https://github.com/vivek0042" className='btn-get-started'><GitHubIcon/></NavLink>
                   
                 </div>
 
