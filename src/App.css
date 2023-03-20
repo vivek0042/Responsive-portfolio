@@ -107,7 +107,7 @@
 }
 @media 
   (max-device-width: 700px)
-  and (max-device-height: 900px) { 
+  and (max-device-height: 800px) { 
     #header .animated1{
       animation:up-down 2s ease-in-out infinite alternate-reverse both;
       width:00px;
@@ -120,4 +120,9 @@
     
 
 
+}
+.ico{
+  margin-right: 20px;
+  width: 2rem;;
+  height: auto;
 }
