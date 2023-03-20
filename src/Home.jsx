@@ -22,8 +22,8 @@ const Home=()=>{
                  Web Developer,ML Enthusiast,learner.
                  </h2>
                   <div className='mt-3'>    {/*mt-3 means margin top by 3 px */}
-                    <NavLink to="https://www.linkedin.com/in/vivek-jain-73b35a214/" className='btn-get-started'><LinkedInIcon/></NavLink>
-                    <NavLink to="https://github.com/vivek0042" className='btn-get-started'><GitHubIcon/></NavLink>
+                    <NavLink to="https://www.linkedin.com/in/vivek-jain-73b35a214/" className="ico"><LinkedInIcon style={{width:"3rem",height:"auto"}}/></NavLink>
+                    <NavLink to="https://github.com/vivek0042" className="ico"><GitHubIcon style={{width:"3rem",height:"auto"}}/></NavLink>
                   
                 </div>
 
