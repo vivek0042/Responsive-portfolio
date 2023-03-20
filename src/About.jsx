@@ -27,7 +27,7 @@ const About=()=>{
                    Other information shared in Resume.
                  </h2>
                  <div className='mt-3'>    {/*mt-3 means margin top by 3 px */}
-                    <NavLink to="https://drive.google.com/file/d/1uRrOOvtXZ4E2v-fqpzfGYIuYEPa4VaBN/view?usp=share_link" className='btn-get-started'>Resume</NavLink>
+                    <NavLink to="https://drive.google.com/file/d/1AZBRz3lwU6DX3rvAhv9pzipca0zk8K9f/view?usp=share_link" className='btn-get-started'>Resume</NavLink>
                     
                     
       
