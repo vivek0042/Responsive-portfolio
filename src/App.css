@@ -1,3 +1,4 @@
+
 .active{
   font-weight: bold;
   border-bottom: 1px solid #565387;
@@ -54,7 +55,7 @@
   border-radius: 50%;
   border:2px solid black */
   /* margin-left: 10px; */
-}1
+}
 #header .animated{
   animation:up-down 2s ease-in-out infinite alternate-reverse both;
   /* width:300px;
@@ -62,6 +63,18 @@
   border-radius: 10%;
   border:2px solid #3498db
   
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform:translateY(10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+@-webkit-keyframes up-down {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 #header .animated1{
   animation:up-down 2s ease-in-out infinite alternate-reverse both;
@@ -83,6 +96,7 @@
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
 }
+
 .card img{
   /* width:344px; */
   height:174px;
