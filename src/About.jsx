@@ -34,8 +34,8 @@ const About=()=>{
                  </div>
 
                 </div>
-                <div className='col-lg-6 order-1 order-lg-1 header-img'>  {/*in this order use for showing position ingrid .it is responsive element */}
-                    <img src={web} className="img-fluid animated" alt="homeimg"/>
+                <div className='col-lg-6 order-1 order-lg-1 header-img1'>  {/*in this order use for showing position ingrid .it is responsive element */}
+                    <img src={web} className="img-fluid animated1" alt="homeimg"/>
                 </div>
 
 
