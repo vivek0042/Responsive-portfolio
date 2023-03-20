@@ -38,7 +38,7 @@
   color:#fff;
 }
 .header-img{
-  text-align: center;
+  text-align: right;
   /* margin-right: 1px; */
   /* width:700px;
   height:500px;
@@ -48,8 +48,8 @@
 }
 #header .animated{
   animation:up-down 2s ease-in-out infinite alternate-reverse both;
-  width:300px;
-  height:400px;
+  /* width:300px;
+  height:400px; */
   border-radius: 10%;
   border:2px solid #3498db
   
@@ -67,7 +67,7 @@
   100% { transform: translateY(-10px); }
 }
 .card img{
-  width:344px;
+  /* width:344px; */
   height:174px;
 }
 .card-body{
