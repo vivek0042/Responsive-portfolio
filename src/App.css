@@ -74,3 +74,19 @@
   /* height:150px; */
   width:auto;
 }
+@media 
+  (max-device-width: 500px)
+  and (max-device-height: 700px) { 
+    #header .animated{
+      animation:up-down 2s ease-in-out infinite alternate-reverse both;
+      width:00px;
+      height:0px;
+      margin-bottom: 0px;
+      border-radius: 10%;
+      border:2px solid #3498db
+      
+    }
+    
+
+
+}
