@@ -106,8 +106,8 @@
   width:auto;
 }
 @media 
-  (max-device-width: 500px)
-  and (max-device-height: 700px) { 
+  (max-device-width: 700px)
+  and (max-device-height: 900px) { 
     #header .animated1{
       animation:up-down 2s ease-in-out infinite alternate-reverse both;
       width:00px;
