@@ -71,6 +71,6 @@
   height:174px;
 }
 .card-body{
-  height:150px;
-  width:344px;
+  /* height:150px; */
+  width:auto;
 }
